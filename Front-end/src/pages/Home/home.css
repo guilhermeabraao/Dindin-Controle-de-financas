@@ -1,0 +1,222 @@
+.homeContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 55px 105px;
+    background-color: white;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.filterBtn {
+    width: 80px;
+    height: 30px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.filterBtn span {
+    width: 33px;
+    height: 14px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.mainHome {
+    display: flex;
+    flex-direction: row;
+}
+
+.filterTransactionDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.transactionBar {
+    width: 964px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.strongBarDiv {
+    width: 100%;
+    height: 100%;
+    padding-left: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.dateLabel {
+    width: 102px;
+    margin-right: 30px;
+    text-align: start;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.dayLabel {
+    width: 96px;
+    margin-right: 29px;
+}
+
+.descriptionLabel {
+    width: 227px;
+    margin-right: 14px;
+}
+
+.categoryLabel {
+    width: 105px;
+    margin-right: 65px;
+}
+
+.valueLabel {
+    width: 100px;
+}
+
+
+
+
+
+
+.resumeDiv {
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    left: 1104px;
+    top: 113px;
+}
+
+.resume {
+    width: 236px;
+    height: 196px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.resume strong {
+    width: 72px;
+    height: 21px;
+    margin: 8px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #2F2F2F;
+}
+
+.inOutResume {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inOutResume label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #2F2F2F;
+}
+
+.inDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inValueColor {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #645FFB;
+}
+
+.outDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.outValueColor {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FA8C10;
+}
+
+.grayLineSpan {
+    width: 189px;
+    height: 1px;
+
+    background-color: #EAEAEA;
+}
+
+.balanceDiv {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.balanceDiv label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2F2F2F;
+}
+
+.balanceValueColor {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #3A9FF1;
+}
+
+.addtransaction {
+    width: 236px;
+    height: 42px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+    border-radius: 5px;
+    background: #7978D9;
+}

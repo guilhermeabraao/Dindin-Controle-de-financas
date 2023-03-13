@@ -1,0 +1,65 @@
+.transactionForm {
+    width: 611px;
+    height: 879px;
+    padding: 62px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.inOutDivs {
+    width: 489px;
+    height: 56px;
+    cursor: pointer;
+    display: flex;
+}
+
+.inOutDiv {
+    width: 244.5px;
+    height: 56px;
+
+    background: #B9B9B9;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inOutDiv span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.inSelectedColor {
+    background: #3A9FF1;
+}
+
+.outSelectedColor {
+    background: #FF576B;
+}
+
+.addBackgroundDiv {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    right: 0px;
+    bottom: 0px;
+
+    z-index: 1;
+
+    background: rgba(61, 61, 61, 0.48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorAddMessage {
+    top: 300px
+}

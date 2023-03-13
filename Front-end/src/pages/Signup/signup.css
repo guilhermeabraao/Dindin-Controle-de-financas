@@ -1,0 +1,69 @@
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signupForm {
+    width: 513px;
+    height: 781px;
+
+    background: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.signupH1 {
+    width: 171px;
+    height: 32px;
+
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #7978D9;
+}
+
+
+
+.divButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px
+}
+
+.signupButton {
+    width: 449px;
+    height: 49px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #7978D9;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.divButton span {
+    width: 215px;
+    height: 17px;
+
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #7B61FF;
+}
+
+.errorSignup {
+    top: 610px
+}
+
+.errorLabel {
+    border-color: red;
+}

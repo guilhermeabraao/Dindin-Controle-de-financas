@@ -1,0 +1,42 @@
+header {
+    width: 1440px;
+    height: 224px;
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+.logo {
+    width: 169px;
+    height: 45px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+span {
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.profileArea {
+    width: 138px;
+    height: 56px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nomeUsuario {
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 16px;
+}
+
+.profileIcon {
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.editBackgroundDiv {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    right: 0px;
+    bottom: 0px;
+
+    z-index: 1;
+
+    background: rgba(61, 61, 61, 0.48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

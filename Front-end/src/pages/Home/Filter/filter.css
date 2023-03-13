@@ -1,0 +1,90 @@
+.categoryDiv {
+    width: 960px;
+    height: 205px;
+    padding-left: 36px;
+    margin-bottom: 60px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.categoryDivSpan {
+    width: 57px;
+    height: 14px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #B9B9B9;
+}
+
+.categories {
+    width: 500px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
+}
+
+.category {
+    width: 80px;
+    height: 20px;
+    padding: 0px 9px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #000000;
+}
+
+.filterButtons {
+    display: flex;
+    gap: 18px;
+}
+
+.filterButtons button {
+    width: 98px;
+    height: 30px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.selectedBtn {
+    background-color: #7978D9;
+}
+
+.selectedBtn span {
+
+    color: white;
+}
+
+.applyFilterBtn {
+    background-color: #7978D9;
+    color: white;
+}
+
+.cleanFilterBtn {
+    background-color: white;
+}

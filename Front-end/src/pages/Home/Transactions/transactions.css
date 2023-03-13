@@ -1,0 +1,61 @@
+.transactionDetailDiv {
+    padding-left: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+    border-bottom: 1px solid #E0E0E0;
+
+}
+
+.editDeleteDiv {
+    height: 100%;
+    width: 18%;
+
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.editDeleteDiv img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.deleteMessageDiv {
+    width: 111px;
+    height: 53px;
+    z-index: 3;
+    visibility: hidden;
+
+    display: flex;
+    position: absolute;
+    top: 276px;
+    left: 902px;
+
+}
+
+.deleteBG {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/deleteMessage.svg');
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+}
+
+.confirmationDeleteBtn {
+    width: 37px;
+    height: 15px;
+    margin-top: 22px;
+    background: none;
+    border-radius: 4px;
+}

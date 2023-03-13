@@ -1,0 +1,47 @@
+.profileForm {
+    width: 611px;
+    height: 770px;
+    padding: 62px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profileBackgroundDiv {
+
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0px;
+
+    z-index: 1;
+
+    background: rgba(61, 61, 61, 0.48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formLabel {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #484848;
+}
+
+.editProfileButton {
+    width: 236px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+    background: #7978D9;
+    border-radius: 5px;
+}

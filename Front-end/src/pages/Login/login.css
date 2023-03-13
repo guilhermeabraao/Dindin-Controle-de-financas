@@ -1,0 +1,92 @@
+.loginContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    width: 614px;
+    height: 350px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text h1 {
+    width: 614px;
+    height: 124px;
+
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+strong {
+    color: #7978D9;
+}
+
+.text span {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: justify;
+}
+
+.cadastrese {
+    width: 284px;
+    height: 48px;
+
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+
+    border-style: none;
+    border-radius: 5px;
+    background-color: #7978D9;
+    cursor: pointer;
+}
+
+.login form {
+    width: 513px;
+    height: 535px;
+    background: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.loginTitle {
+    width: 85px;
+    height: 32px;
+    font-weight: 500;
+    display: flex;
+    align-self: center;
+    color: #7978D9;
+}
+
+.divInputs div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.loginButton {
+    width: 449px;
+    height: 48px;
+    background: #7978D9;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.errorLogin {
+    top: 565px
+}

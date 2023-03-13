@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 1440px;
+    height: 1024px;
+    background-image: url('../assets/background.png');
+    background-size: cover;
+}
+
+.gradientBG {
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+}
+
+.pagesContainer {
+    width: 1440px;
+    height: 908px;
+    position: relative;
+    bottom: 108px;
+}
+
+.formLabel {
+
+    height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #484848;
+
+
+}
+
+.formInput {
+    width: 449px;
+    height: 63px;
+    padding-left: 15px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.divLabelInput {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    border-style: none;
+}
+
+
+
+.titleDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linkStyle {
+    text-decoration: none;
+}
+
+.errorMessage {
+    width: 449px;
+    top: 750px;
+    font-size: 17px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+}
+
+.errorMessage span {
+    font-size: 17px;
+    color: red;
+}
