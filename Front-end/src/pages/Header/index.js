@@ -3,12 +3,13 @@ import logo from '../../assets/logo.svg';
 import profile from '../../assets/profile.svg';
 import logoutIcon from '../../assets/logout.svg';
 import Profile from './Profile';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { Navigate } from 'react-router-dom';
 import { validateLogin } from '../../Authentication';
+import LoginContext from '../../contexts/LoginContext';
 
-export default function Header({ logged, setLogged }) {
-
+export default function Header() {
+    const { logged, setLogged } = useContext(LoginContext);
     const [profileWindow, setProfileWindow] = useState(false);
     const [logout, setLogout] = useState(false);
 
@@ -17,7 +18,7 @@ export default function Header({ logged, setLogged }) {
         if (localStorage.getItem('token') && logged === false) {
             setLogged(validateLogin())
         }
-    }, [])
+    })
 
 
 

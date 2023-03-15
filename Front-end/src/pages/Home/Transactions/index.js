@@ -3,12 +3,13 @@ import ptBR from 'date-fns/locale/pt-BR';
 import './transactions.css'
 import editIcon from '../../../assets/edit-icon.svg';
 import deleteIcon from '../../../assets/delete-icon.svg';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useContext } from 'react';
 import EditTransaction from './EditTransaction';
 import { api } from '../../../api/api';
+import TransactionContext from '../../../contexts/TransactionContext';
 
 
-export default function Transactions({ categories, setResume, categoriesFilter, transactionOrder }) {
+export default function Transactions() {
 
     const [transactions, setTransactions] = useState([]);
     const [editTransactionWindow, setEditTransactionWindow] = useState(false);
@@ -16,6 +17,7 @@ export default function Transactions({ categories, setResume, categoriesFilter, 
     const [openDeleteMessage, setOpenDeleteMessage] = useState(false)
     const deleteMessageRef = useRef();
     const deleteIdRef = useRef();
+    const { categories, setResume, categoriesFilter, transactionOrder } = useContext(TransactionContext)
 
     async function loadTransactions() {
 

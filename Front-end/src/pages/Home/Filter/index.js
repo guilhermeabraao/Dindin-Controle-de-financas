@@ -1,10 +1,12 @@
-import { useRef, useState } from 'react';
+import { useContext, useRef, useState } from 'react';
+import TransactionContext from '../../../contexts/TransactionContext';
 import './filter.css';
 
-export default function Filter({ categories, setCategoriesFilter }) {
+export default function Filter() {
 
     const [filterArray, setFilterArray] = useState([]);
     const categoriesRef = useRef();
+    const { categories, setCategoriesFilter } = useContext(TransactionContext);
 
     function handleFilter(description, id) {
         const newArray = filterArray;

@@ -1,10 +1,12 @@
 import './login.css';
 import { Link, Navigate } from 'react-router-dom';
-import { useRef } from 'react';
+import { useContext, useRef } from 'react';
 import { api } from '../../api/api';
+import LoginContext from '../../contexts/LoginContext';
 
-export default function Login({ logged, setLogged }) {
+export default function Login() {
 
+    const { logged, setLogged } = useContext(LoginContext);
     const emailRef = useRef();
     const passwordRef = useRef();
     const errorRef = useRef();
