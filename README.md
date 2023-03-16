@@ -1,1 +1,1 @@
-# Dindin - Controle de gastos
+# Dindin - Controle de finanças
