@@ -1,1 +1,1 @@
-# Dindin--Controle-de-Capital
+# Dindin - Controle de gastos
