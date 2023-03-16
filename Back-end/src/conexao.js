@@ -1,15 +1,12 @@
-const express = require("express");
-
-const { Pool } = require('pg')
-const roteador = express();
-
-const pool = new Pool({
-    host: "localhost",
-    port: 5432,
-    user: "postgres",
-    password: "123456",
-    database: "dindin",
+const knex = require('knex')({
+    client: 'pg',
+    connection: {
+        user: 'postgres',
+        host: 'localhost',
+        database: 'dindin',
+        password: '123456',
+        port: 5432
+    }
 });
 
-
-module.exports = { roteador, pool };
+module.exports = knex;

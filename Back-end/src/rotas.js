@@ -6,7 +6,6 @@ const {
     detalharUsuario,
     listarCategorias,
     listarTransacoes,
-    detalharTransacoes,
     cadastrarTransacao,
     atualizarTransacao,
     deletarTransacao,
@@ -26,7 +25,6 @@ roteador.put('/usuario', atualizarUsuario);
 roteador.get('/categoria', listarCategorias);
 roteador.get('/transacao', listarTransacoes);
 roteador.get("/transacao/extrato", extratoTransacoes);
-roteador.get('/transacao/:id', detalharTransacoes);
 roteador.post('/transacao', cadastrarTransacao);
 roteador.put('/transacao/:id', atualizarTransacao);
 roteador.delete('/transacao/:id', deletarTransacao);
