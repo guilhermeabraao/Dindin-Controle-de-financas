@@ -1,3 +1,3 @@
-const oculto = "87865461326512342255714"
+const oculto = "insira a frase secreta"
 
 module.exports = oculto;
